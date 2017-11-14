@@ -9,9 +9,15 @@
    		padding-top: 70px
    }
 
-   nav ul li a {
-   	margin-top: 50px;
+   nav.main-nav ul li a {
+    margin-top: 50px;
+    height: 150px;
 
+   }
+
+   .navbar-inverse .navbar-nav li a:focus, .navbar-inverse .navbar-nav li a:hover {color : #51D23A;}
+   .navbar {
+    border-radius: 10px;
    }
 .DnTLogo {
 	border-radius: 30%;
@@ -85,7 +91,9 @@ li {
 }
 
 
-
+.form-control {
+    max-width: 800px;
+}
 
 
 .contact-text a {
@@ -105,7 +113,7 @@ h3  {
 </head>
 <body>
 
-	<nav class="navbar navbar-inverse navbar-fixed-top">		
+	<nav class="navbar navbar-inverse navbar-fixed-top main-nav">		
 		<div class='container'>
 		    <div class=" navbar-header page-scroll">
 		    	<a class="navbar-brand page-scroll" href="#top-of-page"> <img class="DnTLogo"  src="img/DnT.png" height="140px" width="170px"> Tree Surgery And Garden Services </a>
@@ -134,6 +142,9 @@ h3  {
     <form class="form-horizontal" role="form">
     
     <div class="container">
+
+
+
     
       <div class="form-group">
         <div class="col-sm-8">
@@ -181,7 +192,7 @@ h3  {
 
 
 
-
+<script src="js/JSP1.js"> </script>
 
 </body>
 </html>
