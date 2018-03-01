@@ -8,18 +8,17 @@ $(".formbox").click(function()
 
 {
 
-
+  
   alert("Thank You, we look forward to giving you a quote.");
   
 });
 
 
-var lastImg = 1; //Set initial thumbnail and previewdocument.getElementbyId(0).src =
-document.getElementById(lastImg).src;
-document.getElementById(lastImg).className = "thumb selected";
+$(".thumbnail").click(function() {
+  var screenSrc = $(this).attr('src');
+  console.log( $(this).attr('src'));
+  $('#screen').attr('src', 'some/othe/path');
 
-function preview(img)  {
-document.getElementById(lastImg).className = "thumb normal";
-img.className = "thumb selected";
-document.getElementById(0).src= img.src;
-lastImg = img.id}
+});
+
+
