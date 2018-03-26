@@ -6,7 +6,7 @@
               var nextThumbnail = $( $(".thumbnail img").get(nextIndex) );
               $(".preview").prop("src", nextThumbnail.data("src"));
               $(".preview").data("current-index", nextIndex);
-
+});
              $(".formbox").click(function() 
 
         {
@@ -15,7 +15,7 @@
           alert("Thank You, we look forward to giving you a quote.");
 
 
-           });
+           
            });
 
 
