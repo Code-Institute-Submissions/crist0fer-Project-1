@@ -1,5 +1,5 @@
 # Project-1
-Stream one Project one Front End/ Code Institute frst milestone Project
+Stream one Project one Front End/ Code Institute first milestone Project
 
 <h2> My Project </h2>
 
